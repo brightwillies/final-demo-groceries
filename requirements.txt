@@ -1,15 +1,24 @@
+# streamlit>=1.30.0
+# torch>=2.0.1
+# torchvision>=0.15.2
+# opencv-python-headless>=4.8.0.76
+# Pillow>=10.0.0
+# numpy>=1.24.3
+# tqdm>=4.66.0
+# PyYAML>=6.0
+# # These are also frequently needed by the official yolov7 repo:
+# matplotlib>=3.2.2
+# scipy>=1.4.1
+# tensorboard>=2.4.1
+# # Optional but recommended for robustness:
+# seaborn>=0.11.0
+# pandas>=1.1.4
+
 streamlit>=1.30.0
-torch>=2.0.1
-torchvision>=0.15.2
-opencv-python-headless>=4.8.0.76
+torch>=2.4.0
+torchvision>=0.19.0
+opencv-python-headless>=4.10.0
 Pillow>=10.0.0
 numpy>=1.24.3
-tqdm>=4.66.0
-PyYAML>=6.0
-# These are also frequently needed by the official yolov7 repo:
-matplotlib>=3.2.2
-scipy>=1.4.1
-tensorboard>=2.4.1
-# Optional but recommended for robustness:
-seaborn>=0.11.0
-pandas>=1.1.4
+# This is the official YOLOv7 package (no subprocess pip installs!)
+yolov7-package==0.0.1
